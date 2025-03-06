@@ -12,7 +12,7 @@ import pandas
 from gymnasium.core import ActType, ObsType
 
 
-class Monitor(gym.Wrapper[ObsType, ActType, ObsType, ActType]):
+class Monitor(gym.Wrapper):
     """
     A monitor wrapper for Gym environments, it is used to know the episode reward, length, time and other data.
 

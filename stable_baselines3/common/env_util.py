@@ -3,7 +3,7 @@ from typing import Any, Callable, Optional, Union
 
 import gymnasium as gym
 
-from stable_baselines3.common.atari_wrappers import AtariWrapper
+# from stable_baselines3.common.atari_wrappers import AtariWrapper
 from stable_baselines3.common.monitor import Monitor
 from stable_baselines3.common.vec_env import DummyVecEnv, SubprocVecEnv, VecEnv
 from stable_baselines3.common.vec_env.patch_gym import _patch_env
